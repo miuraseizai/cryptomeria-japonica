@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+.hero {
+    background: url('hero-bg.jpg') center/cover no-repeat;
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+}
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.cta-button {
+    display: inline-block;
+    background: #f4a261;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background 0.3s;
+}
+.cta-button:hover {
+    background: #e76f51;
+}
+.small {
+    font-size: 0.9rem;
+    color: #ddd;
+}
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section-image {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+.miracle-sugi ul {
+    list-style: none;
+    margin: 20px 0;
+}
+.miracle-sugi li {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.faq details {
+    margin: 10px 0;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+footer {
+    background: #264653;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+footer a {
+    color: #f4a261;
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.5rem; }
+    .hero { padding: 40px 10px; }
+}
