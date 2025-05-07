@@ -13,7 +13,7 @@ body {
     background: url('hero-bg.jpg') center/cover no-repeat;
     padding: 60px 20px;
     text-align: center;
-    color: #fff;
+    color: #333;
 }
 .hero-content {
     max-width: 800px;
@@ -42,7 +42,7 @@ p {
 }
 .small {
     font-size: 0.9rem;
-    color: #ddd;
+    color: #333;
 }
 section {
     padding: 40px 20px;
