@@ -13,7 +13,9 @@ body {
     background: url('hero-bg.jpg') center/cover no-repeat;
     padding: 60px 20px;
     text-align: center;
-    color: #333;
+    color: #4A2C2A
+
+;
 }
 .hero-content {
     max-width: 800px;
