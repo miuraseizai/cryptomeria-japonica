@@ -43,8 +43,12 @@ p {
     background: #e76f51;
 }
 .small {
-    font-size: 0.9rem;
-    color: #333;
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 section {
     padding: 40px 20px;
